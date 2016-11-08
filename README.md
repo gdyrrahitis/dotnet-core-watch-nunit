@@ -5,6 +5,12 @@ Using `Microsoft.DotNet.Watcher.Tools` to watch unit tests and provide parallel 
 
 The runner for NUnit test framework, compatible with .NET Core is `dotnet-test-nunit`.
 
+## Instructions
+
+On test project folder open a CMD window and type `dotnet watch test`. dotnet-test- runner will start running the tests and the watcher tools will watch tests and code under test for changes, providing feedback on console.
+
+## Code
+
 Author NUnit unit tests as usual.
 
 ```

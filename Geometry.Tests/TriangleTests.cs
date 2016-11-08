@@ -7,18 +7,18 @@
     public class TriangleTests
     {
         [Test]
-        public void Triangle_Area_BySixMetersWidthAndThreeMetersHeight_IsEighteenSquareMeters_Test()
+        public void Triangle_Area_OfSixBaseAndThreeHeight_IsNine_Test()
         {
             // Arrange
-            const double width = 6;
+            const double @base = 6;
             const double height = 3;
             var triangle = new Triangle();
 
             // Act
-            var result = triangle.Area(width, height);
+            var result = triangle.Area(@base, height);
 
             // Assert
-            AreEqual(18.0d, result);
+            AreEqual(9.0d, result);
         }
     }
 }

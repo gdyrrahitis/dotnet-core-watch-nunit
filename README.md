@@ -1,4 +1,6 @@
-# dotnet-core-watch-nunit
+# Watch NUnit tests in .NET Core
+Related blog post can be found [here](http://codereform.com/blog/post/watch-nunit-tests-in-net-core/)
+
 Sample to demonstrate .NET Core test watch with NUnit framework.
 
 Using `Microsoft.DotNet.Watcher.Tools` to watch unit tests and provide parallel feedback.
